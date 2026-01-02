@@ -24,4 +24,8 @@ class FirebaseRepositorySiswa : RepositorySiswa {
                     telpon = doc.getString("telpon") ?: ""
                 )
             }
+        } catch (e: Exception) {
+            emptyList()
+        }
+    }
 
