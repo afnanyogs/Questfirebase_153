@@ -11,3 +11,4 @@ interface RepositorySiswa {
 }
 
 class FirebaseRepositorySiswa : RepositorySiswa {
+    private val db = FirebaseFirestore.getInstance()
