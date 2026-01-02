@@ -83,5 +83,16 @@ fun HomeScreen(
     }
 }
 
+@Composable
+fun HomeBody(
+    statusUiSiswa: StatusUiSiswa,
+    onSiswaClick: (Int) -> Unit,
+    retryAction: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = modifier
+    ) {
 
 
