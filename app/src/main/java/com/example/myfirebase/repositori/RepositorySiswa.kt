@@ -10,3 +10,4 @@ interface RepositorySiswa {
     suspend fun postDataSiswa(siswa: Siswa)
 }
 
+class FirebaseRepositorySiswa : RepositorySiswa {
