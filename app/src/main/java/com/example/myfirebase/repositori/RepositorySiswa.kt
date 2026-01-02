@@ -29,3 +29,4 @@ class FirebaseRepositorySiswa : RepositorySiswa {
         }
     }
 
+    override suspend fun postDataSiswa(siswa: Siswa) {
